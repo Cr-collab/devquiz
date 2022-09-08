@@ -1,4 +1,5 @@
 import 'package:DevQuiz/core/app_gradients.dart';
+import 'package:DevQuiz/core/app_images.dart';
 import 'package:flutter/material.dart';
 
 class SplahPage extends StatelessWidget {
@@ -9,6 +10,7 @@ class SplahPage extends StatelessWidget {
         decoration: BoxDecoration(
           gradient: AppGradients.linear
         ) ,
+        child: Center(child:Image.asset(AppImages.logo),),
       ),
     );
   }
